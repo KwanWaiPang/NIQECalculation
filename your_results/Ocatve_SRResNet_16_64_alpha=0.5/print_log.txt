@@ -1,0 +1,41 @@
+
+**********190623-130723**********
+Dataset [LRHRDataset - set14] is created.
+Number of test images in [set14]: 14
+loading model for G [/home/gwp/SR_basic/high_order/experiments/Ocatve_SRResNet_16_64_alpha=0.5/models/879000_G.pth] ...
+
+**********190623-130743**********
+Dataset [LRHRDataset - set14] is created.
+Number of test images in [set14]: 14
+loading model for G [/home/gwp/SR_basic/high_order/experiments/Ocatve_SRResNet_16_64_alpha=0.5/models/879000_G.pth] ...
+
+**********190623-130935**********
+Dataset [LRHRDataset - set14] is created.
+Number of test images in [set14]: 14
+loading model for G [/home/gwp/SR_basic/high_order/experiments/Octave_SRResNet_16_64_alpha=0.5/models/879000_G.pth] ...
+---------- Model initialized ------------------
+Number of parameters in G: 1,593,539
+-----------------------------------------------
+Model [SRModel] is created.
+
+Testing [set14]...
+baboon_bicLRx4       - PSNR: 20.8876 dB; SSIM: 0.5086; PSNR_Y: 22.8652 dB; SSIM_Y: 0.5676.
+barbara_bicLRx4      - PSNR: 24.6887 dB; SSIM: 0.7404; PSNR_Y: 26.2242 dB; SSIM_Y: 0.7706.
+bridge_bicLRx4       - PSNR: 23.9030 dB; SSIM: 0.6524; PSNR_Y: 25.2222 dB; SSIM_Y: 0.6695.
+coastguard_bicLRx4   - PSNR: 24.9682 dB; SSIM: 0.5649; PSNR_Y: 26.2924 dB; SSIM_Y: 0.5990.
+comic_bicLRx4        - PSNR: 22.0188 dB; SSIM: 0.7438; PSNR_Y: 23.5028 dB; SSIM_Y: 0.7590.
+face_bicLRx4         - PSNR: 29.9083 dB; SSIM: 0.7472; PSNR_Y: 32.8613 dB; SSIM_Y: 0.8122.
+flowers_bicLRx4      - PSNR: 26.1845 dB; SSIM: 0.8060; PSNR_Y: 28.2025 dB; SSIM_Y: 0.8317.
+foreman_bicLRx4      - PSNR: 28.9803 dB; SSIM: 0.9132; PSNR_Y: 30.4014 dB; SSIM_Y: 0.9273.
+lenna_bicLRx4        - PSNR: 30.4246 dB; SSIM: 0.8044; PSNR_Y: 32.4724 dB; SSIM_Y: 0.8747.
+man_bicLRx4          - PSNR: 26.0236 dB; SSIM: 0.7506; PSNR_Y: 27.3434 dB; SSIM_Y: 0.7704.
+monarch_bicLRx4      - PSNR: 31.4967 dB; SSIM: 0.9370; PSNR_Y: 32.9465 dB; SSIM_Y: 0.9481.
+pepper_bicLRx4       - PSNR: 29.6976 dB; SSIM: 0.8060; PSNR_Y: 32.7453 dB; SSIM_Y: 0.8859.
+ppt3_bicLRx4         - PSNR: 25.0913 dB; SSIM: 0.9399; PSNR_Y: 26.7406 dB; SSIM_Y: 0.9516.
+zebra_bicLRx4        - PSNR: 26.2038 dB; SSIM: 0.7910; PSNR_Y: 27.6029 dB; SSIM_Y: 0.8025.
+----Average PSNR/SSIM results for set14----
+	PSNR: 26.4626 dB; SSIM: 0.7647
+
+----Y channel, average PSNR/SSIM----
+	PSNR_Y: 28.2445 dB; SSIM_Y: 0.7979
+

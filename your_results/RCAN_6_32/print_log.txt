@@ -1,0 +1,36 @@
+
+**********190623-125600**********
+Dataset [LRHRDataset - set14] is created.
+Number of test images in [set14]: 14
+loading model for G [/home/gwp/SR_basic/high_order/experiments/RCAN_6_32/models/641000_G.pth] ...
+
+**********190623-125717**********
+Dataset [LRHRDataset - set14] is created.
+Number of test images in [set14]: 14
+loading model for G [/home/gwp/SR_basic/high_order/experiments/RCAN_6_32/models/641000_G.pth] ...
+---------- Model initialized ------------------
+Number of parameters in G: 1,235,976
+-----------------------------------------------
+Model [SRModel] is created.
+
+Testing [set14]...
+baboon_bicLRx4       - PSNR: 20.8803 dB; SSIM: 0.5072; PSNR_Y: 22.8558 dB; SSIM_Y: 0.5657.
+barbara_bicLRx4      - PSNR: 24.7068 dB; SSIM: 0.7410; PSNR_Y: 26.2392 dB; SSIM_Y: 0.7709.
+bridge_bicLRx4       - PSNR: 24.0370 dB; SSIM: 0.6555; PSNR_Y: 25.3558 dB; SSIM_Y: 0.6727.
+coastguard_bicLRx4   - PSNR: 24.9240 dB; SSIM: 0.5638; PSNR_Y: 26.2499 dB; SSIM_Y: 0.5979.
+comic_bicLRx4        - PSNR: 22.0461 dB; SSIM: 0.7454; PSNR_Y: 23.5313 dB; SSIM_Y: 0.7599.
+face_bicLRx4         - PSNR: 29.9002 dB; SSIM: 0.7471; PSNR_Y: 32.8612 dB; SSIM_Y: 0.8125.
+flowers_bicLRx4      - PSNR: 26.2165 dB; SSIM: 0.8081; PSNR_Y: 28.2498 dB; SSIM_Y: 0.8342.
+foreman_bicLRx4      - PSNR: 29.0104 dB; SSIM: 0.9138; PSNR_Y: 30.4579 dB; SSIM_Y: 0.9279.
+lenna_bicLRx4        - PSNR: 30.4601 dB; SSIM: 0.8047; PSNR_Y: 32.5382 dB; SSIM_Y: 0.8753.
+man_bicLRx4          - PSNR: 26.1345 dB; SSIM: 0.7529; PSNR_Y: 27.4538 dB; SSIM_Y: 0.7728.
+monarch_bicLRx4      - PSNR: 31.4990 dB; SSIM: 0.9369; PSNR_Y: 32.9455 dB; SSIM_Y: 0.9479.
+pepper_bicLRx4       - PSNR: 29.7066 dB; SSIM: 0.8064; PSNR_Y: 32.8158 dB; SSIM_Y: 0.8870.
+ppt3_bicLRx4         - PSNR: 25.2433 dB; SSIM: 0.9355; PSNR_Y: 26.8983 dB; SSIM_Y: 0.9526.
+zebra_bicLRx4        - PSNR: 26.0720 dB; SSIM: 0.7909; PSNR_Y: 27.4488 dB; SSIM_Y: 0.8018.
+----Average PSNR/SSIM results for set14----
+	PSNR: 26.4883 dB; SSIM: 0.7650
+
+----Y channel, average PSNR/SSIM----
+	PSNR_Y: 28.2787 dB; SSIM_Y: 0.7985
+
